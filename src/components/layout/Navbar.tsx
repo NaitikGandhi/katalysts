@@ -41,7 +41,7 @@ export function Navbar() {
           <div className="flex items-center justify-between h-16 md:h-20">
             <Link
               href="/"
-              className="font-poppins font-bold text-xl md:text-2xl text-white tracking-tight"
+              className="font-heading font-bold text-xl md:text-2xl text-white tracking-tight"
             >
               katalysts
             </Link>
@@ -52,7 +52,7 @@ export function Navbar() {
                   key={link.href}
                   href={link.href}
                   className={cn(
-                    "text-sm transition-colors duration-200 font-inter",
+                    "text-sm transition-colors duration-200 font-sans",
                     pathname === link.href
                       ? "text-primary"
                       : "text-white/60 hover:text-white"
@@ -100,7 +100,7 @@ export function Navbar() {
                   href={link.href}
                   onClick={() => setMobileOpen(false)}
                   className={cn(
-                    "text-2xl font-poppins font-medium transition-colors",
+                    "text-2xl font-heading font-medium transition-colors",
                     pathname === link.href
                       ? "text-primary"
                       : "text-white hover:text-primary"

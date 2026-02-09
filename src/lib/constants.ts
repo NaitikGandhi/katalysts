@@ -218,6 +218,7 @@ export const TEAM_MEMBERS = [
     name: "Yatharth Champaneria",
     role: "CEO & co-founder",
     image: "/images/Yatharth.png",
+    photo: "/images/yatharth-photo.jpg",
     linkedin: "https://www.linkedin.com/in/yatharthchampaneria/",
     bio: "yatharth brings a relentless focus on business outcomes to every engagement. with experience spanning product strategy and AI implementation, he ensures that every solution katalysts builds is tied directly to revenue, cost savings, or competitive advantage.",
   },
@@ -225,6 +226,7 @@ export const TEAM_MEMBERS = [
     name: "Naitik Gandhi",
     role: "CTO & co-founder",
     image: "/images/Naitik.png",
+    photo: "/images/naitik-photo.jpg",
     linkedin: "https://www.linkedin.com/in/naitikgandhi/",
     bio: "naitik architects the technical foundation that makes AI-native delivery possible. his background in scalable systems and machine learning means katalysts can move from concept to production faster than traditional consultancies — without cutting corners on quality.",
   },
@@ -490,6 +492,69 @@ export const CONTACT_METHODS = [
     href: "https://www.linkedin.com/in/yatharthchampaneria/",
     linkLabel: "LinkedIn",
     external: true,
+  },
+];
+
+export const FOUNDER_QUOTES = [
+  {
+    quote: "Your most unhappy customers are your greatest source of learning.",
+    name: "Bill Gates",
+    title: "Co-founder, Microsoft",
+  },
+  {
+    quote: "Innovation distinguishes between a leader and a follower.",
+    name: "Steve Jobs",
+    title: "Co-founder, Apple",
+  },
+  {
+    quote: "The best way to predict the future is to create it.",
+    name: "Peter Drucker",
+    title: "Management Consultant & Author",
+  },
+  {
+    quote: "Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.",
+    name: "Mark Zuckerberg",
+    title: "Founder & CEO, Meta",
+  },
+  {
+    quote: "If you are not embarrassed by the first version of your product, you've launched too late.",
+    name: "Reid Hoffman",
+    title: "Co-founder, LinkedIn",
+  },
+  {
+    quote: "The people who are crazy enough to think they can change the world are the ones who do.",
+    name: "Steve Jobs",
+    title: "Co-founder, Apple",
+  },
+  {
+    quote: "It's fine to celebrate success but it is more important to heed the lessons of failure.",
+    name: "Bill Gates",
+    title: "Co-founder, Microsoft",
+  },
+  {
+    quote: "Don't be afraid to give up the good to go for the great.",
+    name: "John D. Rockefeller",
+    title: "Founder, Standard Oil",
+  },
+  {
+    quote: "Stay hungry. Stay foolish.",
+    name: "Steve Jobs",
+    title: "Co-founder, Apple",
+  },
+  {
+    quote: "The biggest risk is not taking any risk. In a world that is changing quickly, the only strategy that is guaranteed to fail is not taking risks.",
+    name: "Mark Zuckerberg",
+    title: "Founder & CEO, Meta",
+  },
+  {
+    quote: "When something is important enough, you do it even if the odds are not in your favor.",
+    name: "Elon Musk",
+    title: "Founder, SpaceX & Tesla",
+  },
+  {
+    quote: "I knew that if I failed I wouldn't regret that, but I knew the one thing I might regret is not trying.",
+    name: "Jeff Bezos",
+    title: "Founder, Amazon",
   },
 ];
 

@@ -13,7 +13,7 @@ export function FAQ() {
   return (
     <SectionWrapper id="faq">
       <div className="text-center max-w-3xl mx-auto mb-16">
-        <h2 className="font-poppins font-bold text-3xl md:text-4xl lg:text-5xl text-white">
+        <h2 className="font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-white tracking-tight">
           common questions
         </h2>
       </div>

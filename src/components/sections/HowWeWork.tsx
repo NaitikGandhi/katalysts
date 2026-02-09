@@ -11,7 +11,7 @@ export function HowWeWork() {
   return (
     <SectionWrapper id="how-we-work" className="gradient-subtle border-y border-white/[0.04]">
       <div className="text-center max-w-3xl mx-auto mb-16">
-        <h2 className="font-poppins font-bold text-3xl md:text-4xl lg:text-5xl text-white">
+        <h2 className="font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-white">
           how we work
         </h2>
       </div>
@@ -33,13 +33,13 @@ export function HowWeWork() {
                   className="relative text-center"
                 >
                   <div className="w-32 h-32 mx-auto rounded-full border border-brand-blue/30 bg-[#0F0F18] flex flex-col items-center justify-center mb-6 relative z-10 glow-blue">
-                    <span className="font-poppins font-bold text-primary text-sm mb-1">
+                    <span className="font-heading font-bold text-primary text-sm mb-1">
                       0{step.number}
                     </span>
                     <Icon className="w-6 h-6 text-white/70" />
                   </div>
 
-                  <h3 className="font-poppins font-semibold text-lg text-white mb-3">
+                  <h3 className="font-heading font-semibold text-lg text-white mb-3">
                     {step.title}
                   </h3>
                   <p className="text-sm text-white/40 leading-relaxed mb-4">
@@ -80,7 +80,7 @@ export function HowWeWork() {
             >
               <div className="shrink-0">
                 <div className="w-14 h-14 rounded-full border border-brand-blue/30 bg-[#0F0F18] flex flex-col items-center justify-center">
-                  <span className="font-poppins font-bold text-primary text-xs">
+                  <span className="font-heading font-bold text-primary text-xs">
                     0{step.number}
                   </span>
                   <Icon className="w-4 h-4 text-white/70" />
@@ -90,7 +90,7 @@ export function HowWeWork() {
                 )}
               </div>
               <div className="pb-6">
-                <h3 className="font-poppins font-semibold text-lg text-white mb-2">
+                <h3 className="font-heading font-semibold text-lg text-white mb-2">
                   {step.title}
                 </h3>
                 <p className="text-sm text-white/40 leading-relaxed mb-3">

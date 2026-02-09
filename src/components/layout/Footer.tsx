@@ -8,7 +8,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <Link
             href="/"
-            className="font-poppins font-bold text-xl text-white tracking-tight"
+            className="font-heading font-bold text-xl text-white tracking-tight"
           >
             katalysts
           </Link>

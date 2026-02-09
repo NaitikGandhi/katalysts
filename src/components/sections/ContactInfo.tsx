@@ -30,7 +30,7 @@ export function ContactInfo() {
               <div className="w-14 h-14 rounded-full bg-brand-blue/15 flex items-center justify-center mx-auto mb-5">
                 {Icon && <Icon className="w-7 h-7 text-brand-blue" />}
               </div>
-              <h3 className="font-poppins font-semibold text-lg text-white mb-2">
+              <h3 className="font-heading font-semibold text-lg text-white mb-2">
                 {method.title}
               </h3>
               <p className="text-white/50 text-sm leading-relaxed flex-1">
