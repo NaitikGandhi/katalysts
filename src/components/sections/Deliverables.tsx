@@ -35,7 +35,7 @@ export function Deliverables() {
           transition={{ duration: 0.6 }}
         >
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="font-poppins font-bold text-3xl md:text-4xl lg:text-5xl text-white">
+            <h2 className="font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-white">
               what you get
             </h2>
             <p className="mt-6 text-lg text-white/50 leading-relaxed">
@@ -57,7 +57,7 @@ export function Deliverables() {
                       <Icon className="w-6 h-6 text-primary" />
                     )}
                   </div>
-                  <h3 className="font-poppins font-semibold text-white mb-2">
+                  <h3 className="font-heading font-semibold text-white mb-2">
                     {item.title}
                   </h3>
                   <p className="text-white/50 text-sm leading-relaxed">

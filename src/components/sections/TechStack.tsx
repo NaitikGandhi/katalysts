@@ -39,7 +39,7 @@ export function TechStack() {
           transition={{ duration: 0.6 }}
         >
           <div className="text-center max-w-3xl mx-auto mb-12">
-            <h2 className="font-poppins font-bold text-3xl md:text-4xl lg:text-5xl text-white">
+            <h2 className="font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-white">
               our toolkit
             </h2>
             <p className="mt-6 text-lg text-white/50 leading-relaxed">

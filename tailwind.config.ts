@@ -43,8 +43,10 @@ const config: Config = {
         success: "#22C55E",
       },
       fontFamily: {
-        poppins: ["var(--font-poppins)"],
-        inter: ["var(--font-inter)"],
+        sans: ["var(--font-dm-sans)", "system-ui", "sans-serif"],
+        heading: ["var(--font-inter-tight)", "system-ui", "sans-serif"],
+        poppins: ["var(--font-inter-tight)"],
+        inter: ["var(--font-dm-sans)"],
       },
       keyframes: {
         "accordion-down": {

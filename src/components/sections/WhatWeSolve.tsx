@@ -17,7 +17,7 @@ export function WhatWeSolve() {
   return (
     <SectionWrapper id="what-we-solve">
       <div className="text-center max-w-3xl mx-auto mb-16">
-        <h2 className="font-poppins font-bold text-3xl md:text-4xl lg:text-5xl text-white">
+        <h2 className="font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-white">
           what we solve
         </h2>
         <p className="mt-6 text-lg text-white/50 leading-relaxed">
@@ -45,7 +45,7 @@ export function WhatWeSolve() {
                 </span>
               </div>
 
-              <h3 className="font-poppins font-semibold text-lg text-white mb-4">
+              <h3 className="font-heading font-semibold text-lg text-white mb-4">
                 {study.title}
               </h3>
 
@@ -75,7 +75,7 @@ export function WhatWeSolve() {
                 <div className="grid grid-cols-2 gap-3">
                   {study.impacts.map((impact, i) => (
                     <div key={i}>
-                      <p className="font-poppins font-bold text-lg text-success">
+                      <p className="font-heading font-bold text-lg text-success">
                         {impact.metric}
                       </p>
                       <p className="text-xs text-white/30 leading-tight">

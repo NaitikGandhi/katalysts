@@ -64,7 +64,7 @@ export function StatsBanner() {
             viewport={{ once: true }}
             transition={{ delay: 0.1 * idx, duration: 0.5 }}
           >
-            <div className="text-4xl md:text-5xl font-poppins font-bold text-primary">
+            <div className="text-4xl md:text-5xl font-heading font-bold text-primary">
               <AnimatedNumber
                 value={stat.value}
                 suffix={stat.suffix}

@@ -17,7 +17,7 @@ export function OurApproach() {
   return (
     <SectionWrapper id="our-approach">
       <div className="text-center max-w-3xl mx-auto mb-16">
-        <h2 className="font-poppins font-bold text-3xl md:text-4xl lg:text-5xl text-white">
+        <h2 className="font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-white">
           our approach
         </h2>
       </div>
@@ -34,7 +34,7 @@ export function OurApproach() {
               <div className="w-12 h-12 rounded-xl bg-brand-blue/15 flex items-center justify-center mb-4 transition-colors group-hover:bg-brand-blue/25">
                 {Icon && <Icon className="w-6 h-6 text-brand-blue" />}
               </div>
-              <h3 className="font-poppins font-semibold text-xl text-white mb-3">
+              <h3 className="font-heading font-semibold text-xl text-white mb-3">
                 {pillar.title}
               </h3>
               <p className="text-white/50 leading-relaxed">

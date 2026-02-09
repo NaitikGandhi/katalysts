@@ -13,7 +13,7 @@ export function HowWeThink() {
   return (
     <SectionWrapper id="how-we-think">
       <div className="text-center max-w-3xl mx-auto mb-16">
-        <h2 className="font-poppins font-bold text-3xl md:text-4xl lg:text-5xl text-white">
+        <h2 className="font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-white">
           {HOW_WE_THINK.title}
         </h2>
         <p className="mt-6 text-lg text-white/50 leading-relaxed">
@@ -23,7 +23,7 @@ export function HowWeThink() {
 
       <FadeIn>
         <blockquote className="max-w-3xl mx-auto mb-16 border-l-4 border-primary pl-6 py-2">
-          <p className="text-xl md:text-2xl font-poppins font-semibold text-white/90 italic">
+          <p className="text-xl md:text-2xl font-heading font-semibold text-white/90 italic">
             &ldquo;{HOW_WE_THINK.quote}&rdquo;
           </p>
         </blockquote>
@@ -42,7 +42,7 @@ export function HowWeThink() {
                 <div className="w-10 h-10 rounded-lg bg-brand-blue/20 flex items-center justify-center">
                   <Icon className="w-5 h-5 text-brand-blue" />
                 </div>
-                <h3 className="font-poppins font-semibold text-lg text-white">
+                <h3 className="font-heading font-semibold text-lg text-white">
                   {section.title}
                 </h3>
               </div>

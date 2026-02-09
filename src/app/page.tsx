@@ -3,6 +3,7 @@ import { LogoMarquee } from "@/components/sections/LogoMarquee";
 import { WhyDifferent } from "@/components/sections/WhyDifferent";
 import { ServicesOverview } from "@/components/sections/ServicesOverview";
 import { Reality } from "@/components/sections/Reality";
+import { FounderQuotes } from "@/components/sections/FounderQuotes";
 import { CTA } from "@/components/sections/CTA";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <WhyDifferent />
       <ServicesOverview />
       <Reality />
+      <FounderQuotes />
       <CTA />
     </>
   );
